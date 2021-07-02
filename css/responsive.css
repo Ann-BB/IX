@@ -1,0 +1,21 @@
+@media(max-width: 1100px){
+	.navigation,
+	.icons-wraper{
+		display: none;
+	}
+	.burger-bars{
+		display: block;
+	}
+}
+@media(max-width: 980px){
+	.block:nth-child(4),
+	.block:nth-child(8){
+		margin-bottom: 50px;
+	}
+	.block{
+		width: 57%;
+	}
+	.section-conteiner{
+		justify-content: center;
+	}
+}
